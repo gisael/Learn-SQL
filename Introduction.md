@@ -1,7 +1,7 @@
 
 # Learn SQL using MySQL in one day
 
-## Introduction
+## 1. Introduction
 
 ### SQL and Databases
 Ok, let's start from the very beginning. What is SQL and what it is used for.
