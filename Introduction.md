@@ -1,7 +1,7 @@
 
 # Learn SQL using MySQL in one day
 
-## Introduction
+## 1. Introduction
 
 ### SQL and Databases
 Ok, let's start from the very beginning. What is SQL and what it is used for.
@@ -30,19 +30,46 @@ Before start coding SQL we need to install the DBMS or software required to mana
 
 Once we have installed MySQL server and MySQL Workbench let's create our first database in order to start adding and showing data.
 
-To create a database we use the keyword CREATE DATABASE. Note that I typed the keyword **all caps**, this is not required since MySQL is not case sensitive by default but it is a good practice to type keywords in all caps.
+### Creating, using and deleting a database
+
+To create a database we use the keyword CREATE DATABASE. Note that I typed the keyword **all caps**, this is not required since MySQL is not case sensitive by default, but it is a good practice to type keywords in all caps.
 
 The syntax to create a database is shown below:
 
 CREATE DATABASE name_of_database;
-
-Example:
 
 ```
 CREATE DATABASE contacts;
 ```
 
 The above line of code is known as an SQL statement. Every SQL statement ends with a semi-colon \(;\)
+
+Once the database is created we need to let the DBMS know we want to use that specific database
+
+```
+USE contacts
+```
+
+To delete a database we use the following syntax:
+
+DROP DATABASE [IF EXISTS] name_of_database;
+
+The "IF EXISTS" keyword is optional and is used to avoid erros in case there is not an existing databse with that name.
+
+```
+DROP DATABASE contacts;
+```
+
+### Creating tables inside a database
+
+### Inserting values into the DATABASE
+
+
+### Different data types
+
+
+
+
 
 
 
